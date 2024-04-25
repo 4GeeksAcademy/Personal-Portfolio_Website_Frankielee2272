@@ -1,0 +1,21 @@
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 25px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.icon {
+    width: 30px;
+    height: 30px; /* Set the same size for all icons for consistency */
+    vertical-align: middle; /* Aligns the icon with the text */
+}

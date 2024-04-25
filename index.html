@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .hero {
+            background-image: url('https://itsoftnnet.co.in/images/slider2.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .logo {
+            max-width: 100px;
+            margin: 10px auto; /* Center the logo horizontally */
+        }
+
+        .content {
+            color: white;
+            padding: 20px;
+        }
+
+        nav {
+            display: flex;
+            flex-direction: column;
+            align-items: left; /* Center-align nav items */
+        }
+
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            padding: 10px 20px;
+            color: white;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            margin: 10px 0; /* Adds vertical spacing between buttons */
+            width: 200px; /* Optional: fixes button width */
+        }
+
+        .btn lord-icon {
+            margin-left: 10px; /* Spacing between text and icon */
+            width: 30px;
+            height: 30px;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <img src="https://acceleratron.in/images/blogs/fullstack.jpg" class="logo" style="margin-right: auto; margin-left: 0;" />
+            <!-- Updated GitHub Button -->
+    <a href="https://github.com/Frankielee2272" class="btn">
+        GitHub
+        <lord-icon
+            src="https://cdn.lordicon.com/vyahiuge.json"
+            trigger="hover"
+            style="width:40px; height:40px; margin-left: 10px">
+        </lord-icon>
+    </a>
+
+    <!-- LinkedIn Button -->
+    <a href="https://www.linkedin.com/in/franktrujillo2272/" class="btn">
+        LinkedIn
+        <lord-icon src="https://cdn.lordicon.com/pbihtexz.json" trigger="hover" style="width:30px; height:30px; margin-left: 10px"></lord-icon>
+    </a>
+
+    <!-- CodePen Button -->
+    <a href="https://codepen.io/Frankielee2272" class="btn">
+        CodePen
+        <lord-icon
+            src="https://cdn.lordicon.com/yhwigecd.json"
+            trigger="hover"
+            style="width:30px; height:30px; margin-left: 10px">
+        </lord-icon>
+    </a>
+                <a href="https://flowcv.com/resume/lmlsl8s0fn" class="btn">
+                    Resume
+                    <lord-icon src="https://cdn.lordicon.com/ujxzdfjx.json" trigger="hover" stroke="bold" style="width: 30px; height: 30px; margin-left: 10px"></lord-icon>
+                </a>
+            
+        </nav>
+        <div class="content">
+            <span class="title">Freelance Full-Stack Software Developer</span>
+            <h1>Hello, I’m <span style="color: rgb(219, 243, 10);">Frank</span></h1>
+            <p>
+            <b>Multifunctionality at Its Core: I understand the diverse needs of digital projects.</b>
+            </p>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
