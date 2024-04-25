@@ -19,3 +19,12 @@
     height: 30px; /* Set the same size for all icons for consistency */
     vertical-align: middle; /* Aligns the icon with the text */
 }
+
+
+/* You might need to adjust the position based on your layout */
+.projects-button-position {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
